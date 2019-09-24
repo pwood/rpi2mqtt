@@ -15,12 +15,12 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^3.1.0",
     "mkdirp": "^0.5.1",
-    "mqtt": "^2.13.1",
-    "onoff": "^1.1.8",
+    "mqtt": "^3.0.0",
+    "onoff": "^5.0.0",
     "yalm": "^4.1.0",
-    "yargs": "^10.0.3"
+    "yargs": "^14.0.0"
   },
   "keywords": [
     "mqtt",
