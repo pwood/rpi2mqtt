@@ -89,10 +89,10 @@ if (config.input) {
             if (!err) {
                 switch (config.payload) {
                     case 'json':
-                        payload = JSON.stringify({val: !val, ack: true});
+                        payload = JSON.stringify({val: val, ack: true});
                         break;
                     default:
-                        payload = String(1 - val);
+                        payload = String(val);
                 }
                 if (inputState[i] !== val) {
                     inputState[i] = val;
